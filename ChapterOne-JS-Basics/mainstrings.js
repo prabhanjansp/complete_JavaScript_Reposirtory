@@ -6,11 +6,11 @@ console.log(repoCount+name+"hi")
 
 console.log(` hello my name is ${name} and the repository count is ${repoCount}`)
 const gameaName=new String("prabhanjan-puranik")
-console.log(gameaName)
-console.log(typeof(gameaName))
+console.log(gameaName) // console.log(gameaName[0]) // will not work as it is an object
+console.log(typeof(gameaName)) 
 console.log(gameaName[7]);
 
-console.log(gameaName.__proto__);
+console.log(gameaName.__proto__); // will give the prototype of the string object 
 console.log(gameaName.length);
 console.log(gameaName.toUpperCase()); //PRABHANJAN (Please do remember the concept of the stack memory primitive data type)
 
